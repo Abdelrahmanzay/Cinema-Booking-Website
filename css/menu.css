@@ -1,0 +1,211 @@
+body{
+   background-image: url(https://w.wallhaven.cc/full/0w/wallhaven-0w2de6.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size:cover;
+  color: white;
+  
+}
+ .menu {
+   background: brown;
+   font-family:Arial;
+   position: relative;
+   left: 1px;
+   top: 1px;
+   height: 43px;
+   width: 1450px;
+   font-size: 20px;
+   font-weight: 800px;
+ }
+
+ 
+ .menu ul {
+   all: unset;
+   list-style: none;
+   display: flex;
+   flex-wrap: wrap;
+   background: brown;
+ 
+ }
+ .menu ul li {
+   position: relative;
+ }
+ .menu ul li a {
+   display: block;
+   padding: 10px;
+ }
+ 
+ 
+ .menu ul li ul {
+   position: absolute;
+   display: none;
+   flex-direction: column;
+ }
+ 
+ .menu ul ul li {
+   width: max-content;
+   min-width: 100%;
+   max-width: 200px;
+ }
+ 
+ .menu ul a {
+   all: unset;
+   color: #fff;
+   cursor: pointer;
+ }
+ .menu ul a:hover {
+   background: #c0a09a;
+ }
+ 
+ .menu ul li:hover > ul {
+   display: flex; 
+ }
+ .menu ul ul ul {
+  top: 0;
+  left:100%;
+}
+
+#search{
+   width: 330px;
+   height: 34px;
+   font-size: 17px;
+   position: relative;
+   top: 130px;
+   left: 580px;
+   border-radius: 10px;
+   opacity: 70%;
+}
+#ser{
+  position: relative;
+  left: 650px;
+  top: 120px;
+  font-size: 24px;
+  border: hidden;
+  width: 190px;
+}
+#coming{
+  border: hidden;
+  width: 1450px;
+  height: 30px;
+  text-align: center;
+  font-size: 30px;
+  background-color: brown;
+  margin-top:150px ;
+ padding-bottom: 3px;
+  padding-top: 2px;
+  animation:5s linear 0s infinite running myOpacity ;
+}
+#coming:active{
+  animation:3s linear 5s infinite running myOpacity ;
+}
+@keyframes myOpacity{
+  90%{opacity: 0;}
+
+}
+#dead{
+ /* position: relative;
+  top: 220px;
+  left: 320px;
+  */
+  margin-top:10px ; 
+  margin-left: 280px;
+  opacity: 90%;
+  border: solid;
+  border-color: brown;
+  width: 860px;
+}
+#logout{
+    background-color: brown;
+    position: relative;
+    left:1310px;
+    top:-42px;
+    border: hidden;
+   width: 140px;
+   height: 41px;
+ font-size: 20px;
+ background-color: brown;
+ color: white;
+}
+#logout:hover{
+    opacity: 90%;
+    background: #c0a09a;
+}
+#new{
+  border: hidden;
+  width: 1450px;
+  height: 30px;
+  text-align: left;
+  font-size: 30px;
+  background-color: brown;
+  margin-top:30px ;
+  padding-bottom: 3px;
+  padding-top: 2px;
+}
+
+#post{
+  float: left;
+  width: 25%;
+}
+
+.wrapper {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  width: 325px;
+  height: 450px;
+  background: #000;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  margin-bottom: 0;
+}
+#post{
+  float: left;
+  width: 25%;
+  border-radius: 10px;
+}
+
+.poster {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.poster::before {
+  content: '';
+  position: absolute;
+  bottom: -45%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: .3s;
+}
+
+.card:hover .poster::before {
+  bottom: 0;
+}
+
+.poster img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: .3s;
+}
+.card:hover .poster img {
+  transform: scale(1.1);
+}

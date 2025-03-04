@@ -1,0 +1,63 @@
+body{
+    background-image: url(https://w.wallhaven.cc/full/0w/wallhaven-0w2de6.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    
+    background-size:cover;
+    
+}
+.logo{
+    font-size: 1.4rem;
+    color: #fcfeff;;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 auto 0 0;
+}
+.logo span{
+    color: rgb(148, 5, 5);
+}
+
+#login{
+    border: hidden;
+    width: 110px;
+    height: 40px;
+    font-size: 25px;
+    position:relative;
+    left: 1240px;
+    top:-10px;
+    background-color: brown;
+    
+}
+#signup{
+    border: hidden;
+    width: 110px;
+    height: 40px;
+    font-size: 25px;
+    position:relative;
+    left: 1240px;
+    top: -10px;
+    background-color: brown;
+}
+#welcome{
+    background-color: rgb(33, 40, 47);
+    opacity: 90%;
+    font-family: fantasy;
+    border-radius: 20px;
+    width: 660px;
+    height: 60px;
+    font-size: 30px;
+    padding: auto;
+    padding-left: 10px;
+    padding-top: 16px;
+    position: relative;
+    left: 450px;
+    top: 260px;
+    color: rgb(136, 27, 27);
+    text-shadow: 1px 1px;
+}
+#login:hover{
+  opacity: 70%;
+}
+#signup:hover{
+    opacity: 70%;
+}

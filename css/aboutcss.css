@@ -1,0 +1,23 @@
+
+
+.first{
+    font-size: 35px;
+    font-family: "Kanit", Times, serif;
+    background-color: rgb(48, 48, 48);
+    opacity: 80%;
+    width: 250px;
+    padding-left: 10px;
+
+}
+p{
+    font-size: 20px;
+    font-family: "Kanit", Times, serif;
+  /*  background-color: rgb(104, 71, 71);
+    */opacity: 80%;
+}
+body{
+    background:linear-gradient(to left,rgb(21, 19, 19),rgb(91, 31, 31));
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+}

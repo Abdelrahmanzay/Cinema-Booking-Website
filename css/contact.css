@@ -1,0 +1,63 @@
+:root{
+
+    --main-color: rgb(148, 5, 5);
+    --hover-color: #ffffff;
+    --body-color: #1e1e2a;
+    --container-color: #2d2e37;
+    --text-color: #fcfeff;
+}
+h1{
+    font-size: 40px;
+    margin-left: 450px;
+    font-family: "Kanit", serif
+    
+    }
+    .fa-youtube{
+        color: red;
+        transform: scale(3);
+        margin-left: 55px;
+    }
+    body{
+        background:linear-gradient(to left,rgb(21, 19, 19),rgb(91, 31, 31));
+        background-position: center;
+        background-size: cover;
+        color: whitesmoke;
+    }
+    .fa-facebook{
+        color: blue;
+        transform: scale(3);
+        margin-left: 50px;
+    }
+    .fa-instagram{
+        color:purple;
+        transform: scale(3);
+        margin-left: 10px;
+        }
+        .first{
+            font-size: 25px;
+            font-family: "Kanit", Times, serif
+        
+        }
+        .second p {
+            font-size: 25px;
+            font-family: "Kanit", Times, serif
+        }
+        .third{
+            background-color: grey;
+            opacity: 60%;
+            height: 100%;
+            position: relative;
+            top: 50px;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 100%;
+            height: 200px;
+            position: relative;
+            left: -10px;
+        }
+        p{
+            font-size: 15px;
+            font-family: "Kanit", Times, serif
+        }
+       

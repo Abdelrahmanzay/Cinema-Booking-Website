@@ -1,0 +1,87 @@
+   body{
+    background-image: url(https://w.wallhaven.cc/full/0w/wallhaven-0w2de6.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+}
+#top{
+    background-color: brown;
+    width: 1480px;
+    height: 52px;
+}
+
+#home{
+    color: white;
+    border: hidden;
+    background-color:brown;
+    margin-left: 1160px;
+    position: relative;
+    bottom: 50px;
+    width: 140px;
+    height: 49px;
+    font-size: 20px;
+}
+#home:hover{
+    opacity: 90%;
+    background: #c0a09a;
+}
+#logout{
+    color:white;
+    border: hidden;
+    background-color:brown;
+    margin-left: 1300px;
+    position: relative;
+    bottom: 100px;
+    width: 140px;
+    height: 49px;
+    font-size: 20px;
+}
+#logout:hover{
+    opacity: 90%;
+    background: #c0a09a;
+}
+#left{
+    background-color:rgb(44, 46, 45) ;
+    color:whitesmoke;
+    width: 400px;
+    height: 670px;
+   margin-top: -133px;
+    margin-bottom: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#photo{
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+#video{
+  position: relative;
+    left: 547px;
+    bottom: 375px;
+    width: 655px;
+    border: solid;
+    border-color: brown;
+    
+}
+#trailer{
+    border: hidden;
+    width: 600px;
+    height: 28px;
+    text-align: center;
+    font-size: 30px;
+    background-color: brown;
+    position: relative;
+    left: 578px;
+    top: 10px;
+   padding-bottom: 3px;
+    padding-top: 2px;
+    animation:10s linear 0s infinite running myOpacity ;
+  }
+  #coming:active{
+    animation:2s linear 5s infinite running myOpacity ;
+  }
+  @keyframes myOpacity{
+    90%{opacity: 0;}
+  
+  }

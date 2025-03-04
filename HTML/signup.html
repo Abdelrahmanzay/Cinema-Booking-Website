@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="png" href="https://cdn-icons-png.flaticon.com/128/3223/3223092.png">
+    <title>Signup</title>
+    <link rel="stylesheet" href="/css/signup.css">
+</head>
+<body link="#ff0000">
+    <div class="form-container">
+        <form id="signupForm" class="form" method="get" action="/HTML/menu.html">
+            <h2>Signup</h2>
+            <div class="input-group">
+                <input type="text" id="fullName" placeholder="Full Name" required>
+            </div>
+            <div class="input-group">
+                <input type="text" id="phoneNumber" placeholder="Phone number" required>
+            </div>
+            <div class="input-group">
+                <input type="text"  id="email" placeholder="username" required>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email1" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Create password" required>
+            </div>
+            <div class="input-group">
+                <input type="password" placeholder="Confirm password" required id="vpassword" onblur="sign()">
+            </div>
+            <input type="submit" class="btn" >
+            <p class="account-present">Already have an account? <a href="/HTML/login.html">Login</a> </p>
+        </form>
+    </div>
+    <script src="/JavaScript/sign.js"></script>
+</body>
+</html>
+</html>
